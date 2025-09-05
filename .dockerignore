@@ -1,0 +1,12 @@
+# Ignore unnecessary files for Docker builds
+.git
+node_modules
+**/node_modules
+.yarn/cache
+**/dist
+**/.next
+**/__tests__
+**/*.log
+.env*
+.vscode
+.DS_Store
